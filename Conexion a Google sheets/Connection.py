@@ -11,7 +11,7 @@ enteros_2 = []
 enteros_3 = []
 
 #Uso de la clave para acceder al documento 
-gc = gspread.service_account(filename="keygs.json") 
+gc = gspread.service_account(filename="clave") #Se elimino la clave para proteccion de la cuenta 
 
 #Abrir por titulo
 sh = gc.open('Conexion')
