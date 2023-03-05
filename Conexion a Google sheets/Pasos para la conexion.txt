@@ -1,0 +1,25 @@
+Pasos para conexion 
+
+1) Se usa la libreria "gspread" que sirve para abrir y modificar hojas de cálculo. 
+2) Ingresar a Console cloud  de google con la cuenta
+   (console.cloud.google.com)
+3) Crear un nuevo proyecto
+4) Seleccionar el proyecto
+5) Habilitar las API
+6) Buscar en el explorador "Google sheets" y la seleccionamos (Google Sheets API)
+7) Dar clic en "Habilitar"
+8) Buscar en el explorador "Google Drive" y la seleccionamos (Google Drive API)
+9) Dar clic en "Habilitar"
+10) Crear credenciales para entrar a google drive y google sheets
+    (Para que nuestro codigo pueda manipular los archivos)
+11) Ir a "APIs y servicios" y seleccionamos "Credenciales"
+12) Luego en crear credenciales y seleccionamos "Cuenta de servicio"
+13) Elegimos un nombre, luego elegimos un rol en este caso "Editor" y clic en listo
+14) Copiar el enlace para compartirlo en nuestra hoja de calculo 	
+    Seccion "Compartir" y lo pegamos.
+15) Ir al codigo e importar la libreria para acceder a google  
+16) Crear una clave y descargar el archivo .JSON y ponerlo en la carpeta que trabajamos
+17) Luego con el codigo en python lo configuramos 
+
+.miralda
+
