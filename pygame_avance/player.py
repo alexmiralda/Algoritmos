@@ -27,7 +27,7 @@ class Player(pygame.sprite.Sprite):
 		self.on_right = False
 
 	def import_anim_jugador(self):
-		character_path = '../pygame_final/sprites/punk/'
+		character_path = '../pygame_avance/sprites/punk/'
 		self.animaciones = {'inactivo':[],'correr':[],'saltar':[],'cayendo':[]}
 		#Crea un diccionario para las animaciones del jugador con ayuda de => support.py
 
